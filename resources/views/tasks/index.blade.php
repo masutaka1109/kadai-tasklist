@@ -8,7 +8,8 @@
     <thead>
                 <tr>
                     <th>id</th>
-                    <th>To do</th>
+                    <th>Todo</th>
+                    <th>status</th>
                 </tr>
             </thead>
             <tbody>
@@ -16,6 +17,7 @@
                 <tr>
                     <td>{{ $task->id }}</td>
                     <td>{{ $task->content }}</td>
+                    <td>{{ $task->status }}</td>
                 </tr>
                 @endforeach
             </tbody>
