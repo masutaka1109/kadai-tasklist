@@ -3,6 +3,7 @@
 @section('content')
 
 <!-- ここにページ毎のコンテンツを書く -->
+
 <h1>新規のタスク作成</h1>
 
 <div class="row">
